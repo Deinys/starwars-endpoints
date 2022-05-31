@@ -42,7 +42,8 @@ class Favorite(db.Model):
             "id" : self.id,
             "user": self.user_id,
             "name": self.name,
-            "nature": self.nature
+            "nature": self.nature,
+            "nature_id": self.nature_id
         }
    
 
